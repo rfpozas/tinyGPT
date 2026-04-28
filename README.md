@@ -1,6 +1,6 @@
 # tinyGPT
 
-This is an implementation of a tiny GPT that you can configure for anything from your Laptop's 5080 to the fanciest A100s.
+This is an implementation of a tiny GPT.
 
 ## Repo layout
 
