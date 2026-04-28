@@ -6,10 +6,10 @@ import torch
 @dataclass(slots=True)
 class ModelConfig:
     vocab_size: int = 65 # set by default to match tiny shakespeare
-    context_length: int = 400
-    n_layers: int = 10 # number of transformer layers
-    n_heads: int = 8 # number of attention heads
-    n_embd: int = 400 # embedding dimension, must be divisible by n_heads
+    context_length: int = 256
+    n_layers: int = 6 # number of transformer layers
+    n_heads: int = 6 # number of attention heads
+    n_embd: int = 384 # embedding dimension, must be divisible by n_heads
     dropout: float = 0.1 # dropout rate for regularization
     optimizer_name: str = "adamw" # optimizer, adamw is probably the best choice
 
