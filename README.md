@@ -94,7 +94,3 @@ The repo is split so you can iterate by concern:
 - `tinygpt/data.py` handles corpus loading, encoding, and saved metadata.
 - `tinygpt/training.py` contains batching, loss estimation, training, and checkpointing.
 - `tinygpt/generation.py` contains autoregressive sampling.
-
-## Relationship to the notebook
-
-The notebook is left in place as the original working reference. The reusable logic now lives in the Python package and CLI scripts so future experiments do not need to stay trapped inside a single static notebook.
